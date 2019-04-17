@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Application Page</title>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('Contact Us Button 2.jpg','About Us Button 2.jpg','Applications Button 2.jpg')">
+<table width="1044" border="0">
+  <tr>
+    <td width="228" height="26">&nbsp;</td>
+    <td colspan="3" valign="middle"><div class="topnav">
+      <form id="form1" name="form1" method="post" action="SearchResults.php">
+        <label for="textfield"></label>
+      </form>
+    </div></td>
+  </tr>
+  <tr>
+    <td height="63"><a href="homepage.html"><img src="Hot Beans Logo (Reworked).jpg" width="283" height="209" alt="Logo" /></a></td>
+    <td width="264"><a href="about us.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('About Us Button','','About Us Button 2.jpg',1)"><img src="About Us button.jpg" alt="Button for About Us page" width="264" height="157" id="About Us Button" /></a></td>
+    <td width="264"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Applications Button','','Applications Button 2.jpg',1)"><img src="Applications BUtton.jpg" alt="Button for Application Page" width="264" height="157" id="Applications Button" /></a></td>
+    <td width="264"><a href="contact us.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Contact Us','','Contact Us Button 2.jpg',1)"><img src="Contact Us Button.jpg" alt="Button for Contact Us page" width="264" height="157" id="Contact Us" /></a></td>
+  </tr>
+  <tr>
+    <td height="167" colspan="4" valign="top"><h1>Job Description</h1>
+      <p>In order to apply for Hot Beans, you must have a love for Web design and Devloping! You will be responsible for the help of creating webpages and websites! This will mean using HTML, CSS and Javascript! But if you don't understand coding, don't panic because our staff will be more than willing to teach you the basics of coding, and some will teach you the advanced coding! </p>
+      <p>You will have to either continue with existing projects to help other junior developers, or you will start a new project form scratch! You will be working as a team throughout your time with Hot Beans so if you ever need help, you can always ask your team or even a member of staff!      </p>
+      <p dir="ltr">As a web designer you must:</p>
+      <p dir="ltr">Have skills in programming and graphics,</p>
+      Be creative and use your imagination,
+      <p dir="ltr">Be able to adapt to new techniques,</p>
+      <p dir="ltr">Have good communication skills,</p>
+      <p dir="ltr">Keep up to date with advances in computer technology and acknowledge how this affects the business!</p>
+      <p dir="ltr">Go here for more information! - <a href="qualifications.html">Qualifications</a></p>
+    <p>Just answer the application form below and once completed, it will be sent straight to the company email. If you have any problems, please contact us through either  Email or other the phone which are on the Contact Us page.</p></td>
+  </tr>
+  <tr>
+    <td height="167" colspan="4" valign="top">&nbsp;<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfYG_Wj1WDlY5IBwiWFF8L5BDa-9Vbhc3MM2H-qQY9LNEawsg/viewform?embedded=true" width="640" height="2697" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></td>
+  </tr>
+</table>
+</body>
+</html>
